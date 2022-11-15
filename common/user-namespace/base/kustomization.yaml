@@ -14,6 +14,7 @@ vars:
 - name: user
   objref:
     kind: ConfigMap
+    namespace: default
     name: default-install-config
     apiVersion: v1
   fieldref:
@@ -21,6 +22,7 @@ vars:
 - name: profile-name
   objref:
     kind: ConfigMap
+    namespace: default
     name: default-install-config
     apiVersion: v1
   fieldref:
